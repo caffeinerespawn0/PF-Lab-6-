@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int n=0,i=0,s=0,sum=1;
+    printf("Enter the number of rows for your Fibonacci: \n");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        for(s=1;s<=i;s++){
+            printf("%d",sum++);
+            if(s<i){
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+    int x,i,even=0,odd=0; 
+
+    for(i=1;i<=10;i++){
+            printf("Enter your number:\n");
+            scanf("%d",&x);
+            if(x%2==0){
+                even++;
+            }
+            else{
+                odd++;
+            }
+    }
+    printf("The number of even digits are %d\n",even);
+    printf("The number of odd digits are %d\n",odd);
+
+    return 0;
+}

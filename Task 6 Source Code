@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+  int a,b,space;
+  for(a=1;a<=5;a++){
+      for(space=5;space>a;space--){
+          printf(" ");
+      }
+    for(b=1;b<=a;b++){
+       printf("%d",b);
+       
+    }
+    printf("\n");
+  }
+    return 0;
+}
